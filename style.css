@@ -1,0 +1,40 @@
+p {
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+body {
+    background-color: lemonchiffon;
+} 
+ul {
+    list-style: none;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    padding: 5px;
+}
+li {
+    float: left;
+}
+li > ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(85, 55, 251);
+    font-family: "Comic Sans MS";
+}
+a:hover {
+    background-color: darkred;
+    color: white;
+}
+li:hover > ul{
+    
+    display: block;
+}
+li:hover > ul > li{
+    float: none;
+}
